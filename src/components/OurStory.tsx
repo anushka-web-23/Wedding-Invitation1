@@ -1,14 +1,24 @@
+
 import { weddingConfig } from '@/wedding.config';
 import { SectionHeading, GoldDivider, GoldFrameImage } from './Ornaments';
 
 export default function OurStory() {
   return (
-    <section id="story" className="relative overflow-hidden bg-royal-burgundy py-20 sm:py-28">
-      <div className="mughal-pattern absolute inset-0 opacity-10" aria-hidden="true" />
+    <section
+      id="story"
+      className="relative overflow-hidden bg-royal-burgundy py-20 sm:py-28"
+    >
+      <div
+        className="mughal-pattern absolute inset-0 opacity-10"
+        aria-hidden="true"
+      />
 
       <div className="relative z-10 mx-auto max-w-5xl px-4">
         <div className="reveal">
-          <SectionHeading title={weddingConfig.storyTitle} subtitle="Our Story" />
+          <SectionHeading
+            title={weddingConfig.storyTitle}
+            subtitle="Our Story"
+          />
         </div>
 
         <div className="mt-12 grid items-center gap-8 md:grid-cols-2 md:gap-12">
@@ -22,8 +32,8 @@ export default function OurStory() {
             />
           </div>
 
-          {/* Text */}
-          <div className="reveal-right space-y-5 rounded-2xl border border-royal-gold/60 bg-royal-cream p-6 shadow-xl sm:p-8">
+          {/* First cream card */}
+          <div className="reveal-right space-y-5 rounded-2xl border border-royal-gold/60 bg-[#F5EBDD] p-6 shadow-xl sm:p-8">
             {weddingConfig.storyParagraphs.map((para, i) => (
               <p
                 key={i}
@@ -32,23 +42,28 @@ export default function OurStory() {
                 {para}
               </p>
             ))}
+
             <GoldDivider className="pt-2" />
-            <p className="font-script text-2xl text-royal-gold sm:text-3xl">
+
+            <p className="font-script text-2xl text-royal-maroon sm:text-3xl">
               Forever &amp; Always
             </p>
           </div>
         </div>
 
-        {/* Second image — offset for visual interest */}
+        {/* Second image and story card */}
         <div className="mt-12 grid items-center gap-8 md:grid-cols-2 md:gap-12">
-          <div className="reveal-right order-1 space-y-5 md:order-none">
+          {/* Second cream card */}
+          <div className="reveal-right order-1 space-y-5 rounded-2xl border border-royal-gold/60 bg-[#F5EBDD] p-6 shadow-xl md:order-none sm:p-8">
             <GoldDivider className="pb-2" />
-            <p className="font-serif text-base leading-relaxed text-royal-ivory/85 sm:text-lg">
-              As we embark on this beautiful journey together, we invite you to be part of our
-              celebration — a union of two families, two hearts, and a lifetime of love and
-              laughter yet to unfold.
+
+            <p className="font-serif text-base leading-relaxed text-royal-maroon sm:text-lg">
+              As we embark on this beautiful journey together, we invite you
+              to be part of our celebration — a union of two families, two
+              hearts, and a lifetime of love and laughter yet to unfold.
             </p>
-            <p className="font-display text-xl text-royal-gold sm:text-2xl">
+
+            <p className="font-display text-xl text-royal-maroon sm:text-2xl">
               — Srashti &amp; Tanmay
             </p>
           </div>
