@@ -27,7 +27,7 @@ export default function OurStory() {
             {weddingConfig.storyParagraphs.map((para, i) => (
               <p
                 key={i}
-                className="font-serif text-base leading-relaxed text-royal-ivory/85 sm:text-lg"
+                className="font-serif text-base leading-relaxed text-royal-maroon sm:text-lg"
               >
                 {para}
               </p>
