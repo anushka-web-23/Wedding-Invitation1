@@ -17,7 +17,7 @@ export default function Venue() {
         </div>
 
         <div className="reveal-scale mt-12">
-          <div className="relative overflow-hidden rounded-xl border-2 border-royal-gold bg-royal-burgundy/40 p-8 text-center shadow-2xl sm:p-12">
+          <div className="relative overflow-hidden rounded-xl border-2 border-royal-gold/50 bg-royal-burgundy/40 p-8 text-center shadow-2xl sm:p-12">
             {/* Corner flourishes */}
             <div className="absolute top-0 left-0 h-16 w-16 border-l-2 border-t-2 border-royal-gold/50 rounded-tl-xl" />
             <div className="absolute top-0 right-0 h-16 w-16 border-r-2 border-t-2 border-royal-gold/50 rounded-tr-xl" />
