@@ -3,7 +3,7 @@ import { SectionHeading, GoldDivider, GoldFrameImage } from './Ornaments';
 
 export default function OurStory() {
   return (
-    <section id="story" className="relative overflow-hidden bg-royal-cream py-20 sm:py-28">
+    <section id="story" className="relative overflow-hidden bg-gradient-to-b from-royal-burgundy via-royal-maroon to-royal-burgundy py-20 sm:py-28">
       <div className="mughal-pattern absolute inset-0 opacity-10" aria-hidden="true" />
 
       <div className="relative z-10 mx-auto max-w-5xl px-4">
