@@ -23,7 +23,7 @@ export default function OurStory() {
           </div>
 
           {/* Text */}
-          <div className="reveal-right space-y-5">
+          <div className="reveal-right space-y-5 rounded-2xl border border-royal-gold/60 bg-royal-cream p-6 shadow-xl sm:p-8">
             {weddingConfig.storyParagraphs.map((para, i) => (
               <p
                 key={i}
