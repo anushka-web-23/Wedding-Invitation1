@@ -41,7 +41,7 @@ export default function OurStory() {
 
         {/* Second image — offset for visual interest */}
         <div className="mt-12 grid items-center gap-8 md:grid-cols-2 md:gap-12">
-          <div className="reveal-right order-1 space-y-5 rounded-2xl border border-royal-gold/60 bg-royal-cream p-6 shadow-xl md:order-none sm:p-8">
+          <div className="reveal-right order-1 space-y-5 md:order-none">
             <GoldDivider className="pb-2" />
             <p className="font-serif text-base leading-relaxed text-royal-ivory/85 sm:text-lg">
               As we embark on this beautiful journey together, we invite you to be part of our
