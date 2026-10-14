@@ -49,7 +49,7 @@ export default function Venue() {
                     href={venueMapsLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full border-2 border-royal-gold bg-royal-gold px-7 py-3.5 font-sans text-sm font-semibold uppercase tracking-wider text-royal-deep shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-royal-gold-light hover:shadow-xl"
+                    className="inline-flex items-center gap-2 rounded-lg border-2 border-royal-gold bg-royal-gold/10 px-6 py-3 font-sans text-sm uppercase tracking-wider text-royal-gold transition-all hover:bg-royal-gold hover:text-royal-deep"
                   >
                     <Navigation size={16} />
                     Get Directions
